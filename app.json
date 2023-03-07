@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "ShoppingSpree",
+    "slug": "ShoppingSpree",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.shoppingspree.authsessiongoogle"
+    },
+    "android": {
+      "package": "com.shoppingspree.authsessiongoogle",
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "2de1a7d5-980e-421c-9739-0548e951eeaa"
+      }
+    }
+  }
+}
